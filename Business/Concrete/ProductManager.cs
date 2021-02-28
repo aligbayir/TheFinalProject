@@ -27,7 +27,7 @@ namespace Business.Concrete
             _categoryService = categoryService;
 
         }
-
+        //Claim
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
